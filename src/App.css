@@ -1,0 +1,45 @@
+
+
+/* ----- Reset ----- */
+*,
+*::before
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*body{
+  background-color: black;
+  color: white;
+} */
+ul{
+  list-style: none;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+button{
+  border: none;
+}
+
+/* ----- App ----- */
+.app {
+background-image: url('https://i.pinimg.com/originals/68/61/f9/6861f97cba7467efad0a498c4fdb3446.gif');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
